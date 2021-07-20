@@ -64,6 +64,7 @@ GEM
     crass (1.0.6)
     erubi (1.10.0)
     ffi (1.15.3)
+    foreman (0.87.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.10)
@@ -151,6 +152,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
+  foreman
   listen (~> 3.2)
   mysql2 (>= 0.4.4)
   puma (~> 4.1)
@@ -161,7 +163,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.7.1p83
+   ruby 2.7.0p0
 
 BUNDLED WITH
    2.1.4
